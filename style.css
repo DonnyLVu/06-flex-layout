@@ -12,7 +12,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
+  align-content: center;
   justify-content: space-between;
   width: 100vw;
   position: sticky;
@@ -57,11 +57,13 @@ input {
 }
 
 a,
-li {
+li,
+ul {
   list-style-type: none;
   text-decoration: none;
   color: #505050;
   margin: 6px;
+  padding-left: 0;
 }
 
 .footer {
